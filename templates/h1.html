@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+    <center>
+        <h1>rendering html by using flask</h1>
+        <h2>{{name}}</h2>
+        <h2>{{phone}}</h2>
+        <img src="{{url_for('static',filename='images/media.png')}}" alt="no image" height="300px" width="300px">
+        <h2><a href="{{url_for('hai')}}">Hyperlink</a></h2>
+    
+    </center>
+</body>
+</html>
